@@ -1,8 +1,13 @@
-import React from 'react'
+"use client";
 
-const floatingShapes = () => {
-    const shapes = [
-           {
+import React from "react";
+import { useParallax } from "@/hooks/use-parallax";
+
+const FloatingShapes = () => {
+  const scrollY = useParallax();
+
+  const shapes = [
+    {
       id: 1,
       size: "w-72 h-72",
       position: "top-20 left-10",
@@ -26,20 +31,22 @@ const floatingShapes = () => {
       position: "bottom-1/3 right-1/4",
       gradient: "from-green-400 to-cyan-500",
     },
-    ]
+  ];
   return (
-   <div className="fixed inset-0 overflow-hidden pointer-events-none">
+    <div className="fixed inset-0 overflow-hidden pointer-events-none">
       {shapes.map((shape) => (
         <div
           key={shape.id}
           className={`absolute ${shape.size} ${shape.position} bg-gradient-to-r ${shape.gradient} rounded-full blur-3xl opacity-20 animate-pulse`}
           style={{
-            transform: `translateY(${scrollY * 0.5}px) rotate(${scrollY * 0.1}deg)`,
+            transform: `translateY(${scrollY * 0.5}px) rotate(${
+              scrollY * 0.1
+            }deg)`,
           }}
         />
       ))}
     </div>
-  )
-}
+  );
+};
 
-export default floatingShapes
+export default FloatingShapes;
