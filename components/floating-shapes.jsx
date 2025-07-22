@@ -28,8 +28,16 @@ const floatingShapes = () => {
     },
     ]
   return (
-    <div>
-      
+   <div className="fixed inset-0 overflow-hidden pointer-events-none">
+      {shapes.map((shape) => (
+        <div
+          key={shape.id}
+          className={`absolute ${shape.size} ${shape.position} bg-gradient-to-r ${shape.gradient} rounded-full blur-3xl opacity-20 animate-pulse`}
+          style={{
+            transform: `translateY(${scrollY * 0.5}px) rotate(${scrollY * 0.1}deg)`,
+          }}
+        />
+      ))}
     </div>
   )
 }
