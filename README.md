@@ -387,16 +387,6 @@ Licensed under [MIT](LICENSE)
 
 ---
 
-### ✅ Karna kya hai:
-
-- Ye pura copy karke `README.md` me daal de.
-- GitHub pe preview kar — **har screenshot dikhega**.
-- Image path `/assets/...` automatically `public/` se resolve ho jata hai in Next.js/GitHub Markdown.
-
-Agar chahiye to mai tera repo me PR bhi bana du bhai, tu bol sirf 🧠  
-Zoro ready hai agla gear ⚔️
-```
-
 
 
 ```
