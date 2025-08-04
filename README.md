@@ -229,11 +229,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 📸 Screenshots 
-
-
-```
-## 🖼️ Screenshots
+## 📸 Screenshots
 
 ### 🏠 Home Page
 ![Home Page](/assets/home.jpg)
@@ -281,9 +277,6 @@ This project is licensed under the [MIT License](LICENSE).
 ### 📤 Export Functionality
 ![Export](/assets/export.jpg)
 
-```
-
----
 
 ```
 ```
