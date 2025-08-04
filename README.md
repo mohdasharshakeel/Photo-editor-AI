@@ -229,13 +229,58 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 📸 Screenshots (Optional)
+## 📸 Screenshots 
 
-You can embed images like this in markdown:
 
 ```
-![Editor UI](./public/assets/screenshot-editor.png)
-![Dashboard](./public/assets/screenshot-dashboard.png)
+## 🖼️ Screenshots
+
+### 🏠 Home Page
+![Home Page](/assets/home.jpg)
+
+### ✨ Features Section
+![Features](/assets/features.jpg)
+
+### 💰 Pricing Page
+![Pricing Page](/assets/pricing.jpg)
+
+### 🗂️ All Projects (Dashboard)
+![All Projects](/assets/allprojects.jpg)
+
+---
+
+### 🛠️ Editor Features
+
+#### 🔄 Resize Tool
+![Resize](/assets/resize.jpg)
+
+#### ✂️ Crop Tool
+![Crop](/assets/crop.jpg)
+
+#### 🎛️ Adjust Settings
+![Adjust](/assets/adjust.jpg)
+
+#### 🔤 Text Tool
+![Text](/assets/text.jpg)
+
+---
+
+### 🤖 AI Tools
+
+#### 🪄 AI Background Remover
+![AI Background](/assets/ai-background.jpg)
+
+#### 🎨 AI Image Enhancer
+![AI Image Enhancer](/assets/ai-image-enhancer.jpg)
+
+#### 🧠 AI Editing Suggestions
+![AI Editing](/assets/ai-editing.jpg)
+
+---
+
+### 📤 Export Functionality
+![Export](/assets/export.jpg)
+
 ```
 
 ---
